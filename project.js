@@ -11,7 +11,7 @@ const deposit =() => {
     const NumberDepositAmount =parseFloat(depositAmount);
     // we want to check this is a valid number
     if (isNaN(NumberDepositAmount) || NumberDepositAmount <=0){
-        console.log("Invalid Deposit Amont, Try Again")
+        console.log("Invalid Deposit Amont, Try Again please")
     }
 
 };
